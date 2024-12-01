@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 7px;
+    padding: 4px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+
+    
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+.container{
+    max-width: 150px;
+    margin: 10px;
+}
+.header{
+    
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1vh;
+    height: 70vh;
+    display:contents;
+    
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 25px;
+    padding: 30px;
+    color: aliceblue;
+    display: block;
+    font-weight: 600;
+}
+#menu{
+    display: none;
+
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.seguridad{
+    padding: 100px 0;
+    background-color: rgb(253, 247, 230);
+    position: relative;
+}
+.contenedor-titulo {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    margin: 0 auto; /* Centra el contenedor verticalmente */
+  }
+  .seguridad-content{
+    text-align: center;
+  }
+  .seguridad-content h2{
+    font-size: 40px;
+    line-height: 70px;
+    color: rgba(0, 0, 0, 0.829);
+    text-transform: uppercase;
+    padding: 0 250px;
+
+  }
+  .contenedor-titulo h1{
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    font-family:inherit;
+  }
+  .txt-p{
+    font-size:20px ;
+    color:rgb(41, 40, 40) ;
+    padding: 10px 100px;
+     padding: 0 250px;
+
+  }
+  .seguridad-grupo{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .problematica img{
+    width: 30px;
+    padding: 0 250px;
+   
+  }
+ .problematica p{
+    font-size:20px ;
+    color:rgb(41, 40, 40) ;
+    padding: 0 250px;
+ }
+ .problematica h3{
+    padding: 0 250px;
+ }
+ .services{
+    background-color: rgb(252, 241, 211);
+    text-align:left;
+ }
+.general{
+  justify-content: space-between;
+  
+}
+.general li{
+  text-align:right;
+}
+.footer{
+  background-color: rgb(253, 247, 230);
+  text-align: center;
+  
+}
+.foot img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot ul{
+  
+  margin: 0;
+  padding: 0;
+
+}
